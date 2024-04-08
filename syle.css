@@ -769,8 +769,7 @@ font-weight: 700;
   grid-template-columns: 1fr 1fr;
   grid-gap: 30px;
 }
-.contacts_Info,
-.contacts_form textarea {
+.contacts_Info{
   border: none;
   background-color: var(transparent);
   width: 100%;
@@ -795,14 +794,14 @@ font-weight: 700;
   padding: 40px;
 }
 
-.contacts_Info ul li {
+.contacts_Info {
   margin-bottom: 20px;
   display: flex;
   align-items: center;
   gap: 30px;
 }
 
-.contacts_info ul li a {
+.contacts_info {
   color: var(--clr-secondary);
   font-size: 2.5rem;
 }
